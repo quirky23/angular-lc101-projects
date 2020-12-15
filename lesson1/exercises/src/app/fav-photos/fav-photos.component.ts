@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FavPhotosComponent implements OnInit {
   photosTitle = 'Miscellaneous Corgis';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
+  image1 = 'https://i.pinimg.com/originals/87/46/f9/8746f9646c0f5436e5bd5804f6a51a31.jpg';
   image2 = 'https://images.dog.ceo/breeds/corgi-cardigan/n02113186_1612.jpg';
   image3 = 'https://images.dog.ceo/breeds/corgi-cardigan/n02113186_2994.jpg';
 
