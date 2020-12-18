@@ -5,14 +5,14 @@
         <div class="candidates col-3">
             <h2>Candidates</h2>
             <ol>
-                <li>Use *ngFor to automatically list all of the candidates' names.</li>
+                <li *ngFor="let candidate of candidates">{{candidate.name}}</li>
             </ol>
         </div>
     
         <div class="data col-3">
             <h2>Candidate Data</h2>
-            <p> <!-- Add an *ngIf to this tag to display the selected candidate's data-->
-                {{selected.name}}
+            <p> <!--  {{selected.name}}Add an *ngIf to this tag to display the selected candidate's data-->
+               
             </p>
         </div>
     
